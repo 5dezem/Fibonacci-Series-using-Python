@@ -1,0 +1,8 @@
+x,y,z=0,1,0
+#Enter Positive Number
+v=int(input())
+while z<v:  
+        print(x)  
+        u=x+y
+        x,y=y,u
+        z+= 1  
